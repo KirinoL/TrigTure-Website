@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+    <link rel="stylesheet" href="Course_Materi.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body onload="initJam()">
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="TRIGTURE.png"></a>
+            <div class="navb" id="nvb">
+                <ul>
+                    <li><a href="index.html"><b>Home</b></a></li>
+                    <li><a href="About Us.html"><b>About Us</b></a></li>
+                    <li><a href="Course.html"><b>Bahan Ajar</b></a></li>
+                    <li><a href="Tugas.html"><b>Tugas</b></a></li>
+                    <li><a href="Contact.html"><b>Contact</b></a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section class="blog-content">
+        <div class="text-box">
+            <h1>Materi Ajar</h1> 
+        </div>
+        <div class="row">
+            <div class="blog-left">
+                <img src="01-139_trigonometri-min.png">
+                <h2>Pengertian Trigonometri Secara Umum</h2>
+                <p>Trigonometri adalah cabang matematika yang mempelajari hubungan antara panjang sisi dan sudut dari segitiga. Trigonometri telah menjadi salah satu alat penting dalam matematika, diterapkan dalam berbagai bidang seperti ilmu pengetahuan alam, teknik, dan astronomi. Pengetahuan tentang trigonometri penting dalam pemahaman tentang pola pergerakan dan fenomena alamiah yang terkait dengan siklus alam.</p>
+                <br>
+                <p>Trigonometri didasarkan pada hubungan antara sudut dalam segitiga dan panjang sisi-sisinya. Terdapat tiga fungsi trigonometri dasar: sine (sin), cosine (cos), dan tangent (tan). Ketiganya berhubungan dengan panjang sisi segitiga dan sudut yang terkait. Selain itu, terdapat tiga fungsi trigonometri yang merupakan kebalikan dari fungsi dasar: cosecant (csc), secant (sec), dan cotangent (cot).</p>
+                <br>
+                <p>Namun, tahukah kamu mengapa trigonometri itu <b>penting</b>? Pentingnya trigonometri lebih lengkap akan dijelaskan pada video berikut</p><br>
+                <div class="video-lokal">
+                    <video width="600" height="400" controls>
+                        <source src="Why is Trigonometry so important_.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="comment">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form" name="submit-to-google-sheet">
+                        <label for="nama"><b>Nama</b></label><br>
+                        <input type="text" placeholder="Anonymous" id="nama1" name="Nama">
+                        <label for="email"><b>Email</b></label><br>
+                        <input type="email" placeholder="randomhuman123@gmail.com" id="email1" name="Email">
+                        <textarea rows="5" name="Komen" id="komentar1" placeholder="Jangan lupa tinggalkan komentar kamu disini ya! ☆:. o(≧▽≦)o .:☆"></textarea>
+                        <button type="submit" class="hero-btn" onclick="validasiFormkomen()"><b>Kirim</b></button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Catgories</h3>
+                <div>
+                    <i class='bx bxs-right-arrow'></i>
+                    <p></i><a href="Course_Materi 1.html">Fungsi Trigonometri Sudut Lancip</a></p>
+                </div>
+                <div>
+                    <i class='bx bxs-right-arrow'></i>
+                    <p></i><a href="Course_Materi 2.html">Penerapan Segitiga Siku-siku</a></p>
+                </div>
+                <div>
+                    <i class='bx bxs-right-arrow'></i>
+                    <p></i><a href="Course_Materi 3.html">Fungsi Trigonometri Sudut Sembarang</a></p>
+                </div>
+                <div>
+                    <i class='bx bxs-right-arrow'></i>
+                    <p><a href="Course_Materi 4.html">Identitas Trigonometri</a></p>
+                </div>
+                <div class="kalender-jam">
+                    <div class="kalender">
+                        <span id="hari">Hari</span>,
+                        <span id="bulan">Bulan</span>,
+                        <span id="tanggal">00</span>,
+                        <span id="tahun">Tahun</span>
+                    </div>
+                    <div class="jam">
+                        <span id="hour">00</span>:
+                        <span id="menit">00</span>:
+                        <span id="detik">00</span>
+                        <span id="AMPM">AM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="row">
+            <div>
+                <h4>ABOUT US</h4>
+                <h1>About us</h1><br>
+                <span>Website ini dibuat untuk memenuhi tugas mata kuliah Desain Web</span>
+            </div>
+            <div>
+                <h4>TRIGONOMETRI</h4>
+                <h1>Materi Ajar</h1><br>
+                <span>Fungsi Trigonometri Sudut Lancip</span><br><br>
+                <span>Penerapan Segitiga Siku-siku</span><br><br>
+                <span>Fungsi Trigonometri Sudut Sembarang</span><br><br>
+                <span>Identitas Trigonometri</span><br><br>
+                
+            </div>
+        </div><br>
+        <hr>
+        <div class="univ-um">
+            <h4>OUR COLLEGE</h4>
+            <p>Offering GAB</p>
+            <p>Program Studi S1 Pendidikan Matematika</p>
+            <p>Departemen Matematika</p>
+            <p>Fakultas Matematika dan Ilmu Pengetahuan Alam</p>
+            <p>Universitas Negeri Malang</p>
+            <p>2023</p>
+            <div class="icons">
+                <i class="bx bxl-facebook-circle"></i>
+                <i class="bx bxl-twitter"></i>
+                <i class="bx bxl-instagram-alt"></i>
+                <i class="bx bxl-whatsapp"></i>
+            </div>
+        </div><br>
+        <hr>
+        <div class="kopi-kanan">
+            <p>© 2023 All Rights Reserved</p>
+        </div>
+    </section>
+    <a href="" class="kembali-keatas" id="keatas1"><i class="bx bx-arrow-to-top"></i></a>
+    <script src="CourseScriptKomen.js"></script>
+</body>
+</html>
+
